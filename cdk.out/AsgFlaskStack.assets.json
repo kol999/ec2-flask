@@ -1,0 +1,19 @@
+{
+  "version": "31.0.0",
+  "files": {
+    "31133610d24107d0d1a6fce739fd911c22df6afe913a53dd662740d46379b4ff": {
+      "source": {
+        "path": "AsgFlaskStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "31133610d24107d0d1a6fce739fd911c22df6afe913a53dd662740d46379b4ff.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
