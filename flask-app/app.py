@@ -4,7 +4,7 @@ from s3demo import list_files, download_file, upload_file
 import hostinfo
 
 app = Flask(__name__)
-BUCKET="monday-gs-999"
+BUCKET="big-data-999"
 UPLOAD_FOLDER = "uploads"
 
 @app.route("/")
